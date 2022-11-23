@@ -18,7 +18,6 @@ import {
   orderBy,
   doc,
   deleteDoc,
-  snapshotEqual,
 } from "firebase/firestore";
 
 export default function Admin() {

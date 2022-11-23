@@ -10,7 +10,6 @@ import {
     doc,
     getDoc,
 } from 'firebase/firestore'
-import { async } from "@firebase/util";
 
 export default function Networks(){
 
@@ -38,10 +37,10 @@ export default function Networks(){
 
     }, [])
 
-    async function handleSave(e){
+    function handleSave(e){
         e.preventDefault();
 
-        await setDoc(doc(db, "redes", "link"), {
+        setDoc(doc(db, "redes", "link"), {
             linkedin: linkedIn,
             instagram: instagram,
             whatssap: whatssap

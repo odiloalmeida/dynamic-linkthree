@@ -1,0 +1,14 @@
+.header-container {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 14px;
+    padding: 0 14px;
+
+}
+
+.nav-header {
+    width: 100%;
+    background-color: #fff;
+    height: 48px;
+    display: flex;
+}

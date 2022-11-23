@@ -1,0 +1,28 @@
+.admin-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.label{
+    color: #fff;
+    font-weight: 100;
+    margin: 14px 0 8px;
+}
+
+.container-colors{
+    display: flex;
+    padding: 15px 15px;
+    color: #fff;
+    justify-content: space-around;
+}

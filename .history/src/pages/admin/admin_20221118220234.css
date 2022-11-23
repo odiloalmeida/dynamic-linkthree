@@ -1,0 +1,22 @@
+.admin-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.admin-container p{
+    font-weight: 300;
+}
+
+.admin-container section {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

@@ -1,0 +1,8 @@
+.ultext {
+    list-style-type: none;
+}
+
+.litext {
+    display: flex;
+    flex-direction: row;
+}

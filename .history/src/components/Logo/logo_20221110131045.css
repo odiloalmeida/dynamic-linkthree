@@ -1,0 +1,10 @@
+.one {
+    color: #fff;
+    font-size: 54px;
+    margin: 44px 0 28px;
+}
+
+.two {
+    background: linear-gradient( rgb(241, 254, 0), rgb(199, 224, 9));
+    color: purple;
+}

@@ -1,0 +1,36 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.forms {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.forms input {
+    width: 80%;
+    padding: 6px 6px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.forms input::placeholder {
+    color: black;
+}
+
+.forms button {
+    background-color: #3366FF;
+    padding: 5px 0;
+    width: 80%;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}

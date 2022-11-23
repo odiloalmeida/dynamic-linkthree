@@ -1,0 +1,63 @@
+.admin-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+
+.form {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.label{
+    color: #fff;
+    font-weight: 100;
+    margin: 14px 0 8px;
+}
+
+.container-colors{
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.btn-register{
+    background-color: #3366FF;
+    padding: 5px 0;
+    width: 90%;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn-register svg{
+    margin-left: 8px;
+}
+
+.tittle {
+    color: #fff;
+    margin: 28px 0 14px 0;
+}
+
+.list {
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+.ultext {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.litext {
+    align-content: center;
+}

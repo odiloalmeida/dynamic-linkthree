@@ -1,0 +1,9 @@
+.header-container {
+    font-size: 1rem;
+    padding: 10px 15px;
+    width: 570px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    font-weight: 100;
+}

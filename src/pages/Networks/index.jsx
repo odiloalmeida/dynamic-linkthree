@@ -20,6 +20,7 @@ export default function Networks(){
     useEffect(() => {
 
         function loadLinks(){
+            
             const docRef = doc(db, "redes", "link")
             getDoc(docRef)
             .then( (snapshot) => {

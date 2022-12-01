@@ -89,14 +89,6 @@
     animation-name: animate-pop;
 }
 
-@media screen and (max-width: 550px) {
-
-
-    .admin-container h1{
-        font-size: 70px;
-    }
-}
-
 @keyframes animate-pop{
     0%{
         opacity: 0;

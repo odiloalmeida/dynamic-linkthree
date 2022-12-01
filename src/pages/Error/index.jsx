@@ -9,7 +9,7 @@ export default function Error(){
     return(
         <div className='error'>
             <Logo />
-            <h1>Página não encontrada</h1>
+            <h2>Página não encontrada</h2>
             <p>A página que voce procurou não existe</p>
             <Link className='link' to='/'>
                 Voltar a Home page

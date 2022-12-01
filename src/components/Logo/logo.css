@@ -16,3 +16,9 @@
     color: purple;
     margin-left: -25px;
 }
+
+@media screen and (max-width: 550px){
+    .two {
+        margin-left: -16px;
+    }
+}
